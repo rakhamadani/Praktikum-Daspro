@@ -1,3 +1,3 @@
-ini fitur 1
+fitur 1
 
-Ini fitur 3
+fitur 3
