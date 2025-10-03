@@ -6,19 +6,13 @@ public class ifCetakKRS23 {
    public static void main(String[] args) {  
    Scanner sc = new Scanner(System.in);
    
-   int nilai;
-   System.out.println("Masukkan Nilai Anda : ");
-   nilai = sc.nextInt();
+   System.out.println("---Cetak Siakad---");
+   System.out.println("Apakah UKT sudah lunas? (True/False)");
+   boolean uktLunas = sc.nextBoolean();
 
-   if (nilai >= 50) {
-       System.out.println("Tuntas");
-   } else {
-       System.out.println("Tidak Tuntas");
-   }
-   if ("tuntas".equals("Tuntas")) {
-       System.out.println("Selamat Anda Lulus");
-   } else {
-       System.out.println("Silahkan Mengulang");
+   if (uktLunas) {
+    System.out.println("Pembayaran UKT Terverifikasi");
+    System.out.println("Silahkan cetak KRS dan minta tanda tangan DPA");
    }
    
    }
