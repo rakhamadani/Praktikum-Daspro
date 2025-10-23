@@ -25,8 +25,8 @@ for (int i = 1; i <= 10; i++) {
 }
 System.out.println("Nilai tertinggi: " + tertinggi);
 System.out.println("Nilai terendah: " + terendah);
-System.out.println("Jumlah mahasiswa yang lulus: " + Lulus + "Orang");
-System.out.println("Jumlah mahasiswa yang tidak lulus: " + TidakLulus + "Orang");
+System.out.println("Jumlah mahasiswa yang lulus: " + Lulus + " Orang");
+System.out.println("Jumlah mahasiswa yang tidak lulus: " + TidakLulus + " Orang");
 }
     } 
  
