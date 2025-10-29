@@ -28,6 +28,7 @@ do {
     sc.nextLine();
 }while (true);
 
+System.out.println("Semua Transaksi Selesai");
 
 
 }
