@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class tugas2 {
 public static void main(String[] args) {
-Scanner scanner = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 int n;
 
 do {
     System.out.print("Masukkan nilai n (minimal 3): ");
-    n = scanner.nextInt();
+    n = sc.nextInt();
     if (n < 3) {
         System.out.println("Nilai n harus minimal 3. Silakan coba lagi.");}
     } while (n < 3);
