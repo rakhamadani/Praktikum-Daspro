@@ -1,7 +1,13 @@
+
+import java.util.Scanner;
+
 public class JumlahKuadrat {
 
 public static void main(String[] args) {
-int batasN = 5;
+Scanner sc = new Scanner (System.in);
+int batasN;
+System.out.print("Masukan nilai n = ");
+batasN = sc.nextInt();
         
 for (int n = 1; n <= batasN; n++) {
     int jumlahKuadrat = 0;
