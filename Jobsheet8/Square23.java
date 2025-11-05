@@ -1,4 +1,4 @@
-package Jobsheet8;
+
 import java.util.Scanner;
 
 public class Square23 {
