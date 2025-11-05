@@ -13,7 +13,7 @@ while (i <= n) {
         j++;
     }
     i++;
-    
+    System.out.println();
 }   
 
 }
