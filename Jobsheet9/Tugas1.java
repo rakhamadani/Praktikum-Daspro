@@ -38,7 +38,7 @@ for (int i = 0; i < nilaiMahasiswa.length; i++) {
         System.out.println("]");
         
         double rataRata = (double) total / jumlahNilai;
-        System.out.printf("Nilai Rata-rata Mahasiswa: %.2f\n", rataRata);
+        System.out.println("Nilai Rata-rata Mahasiswa: " + rataRata);
 
         System.out.println("Nilai Tertinggi: " + nilaiTertinggi);
         System.out.println("Nilai Terendah: " + nilaiTerendah);
